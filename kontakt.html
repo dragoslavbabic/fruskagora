@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130681649-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130681649-1');
+</script>
+
+    <meta charset="utf-8">
+    <title>Zaštitimo Frušku goru</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <!--NAVIGATION MENU-->
+        <div class="navbar">
+            <div class=flexme>
+                <div class="top-menu">
+                    <ul>
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="#">Fauna</a>
+                            <ul>
+                                <li><a href="ptice.html">Retke ptice</a></li>
+                                <li><a href="sisari.html">Sisari</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Flora</a>
+                            <ul>
+                                <li><a href="biljke.html">Biljke</a></li>
+                                <li><a href="gljive.html">Gljive</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">O nama</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--MAIN-->
+
+    <div class="kontakt">
+        <div class=naslov>
+            <h2>Kontaktirajte nas!</h2>
+        </div>
+
+        <div class="podaci">
+            <h3>Osnovni podaci: </h3>
+            <p>Osoba: Fruškogorci</p>
+            <p>Ulica: Fruškogorska 1</p>
+            <p>Mesto: Fruška gora</p>
+            <p>Telefon: 555-55-555</p>
+            <p>e-mail: fruska_gora@fruskagora.rs</p>
+        </div>
+        <div class="forma">
+            <h3>Pošaljite nam poruku!</h3>
+            <form action="#" method="post">
+                <span class=email>
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email" required>
+                </span>
+                <span class=ime>
+                    <label for="ime">Ime: </label>
+                    <input type="text" id="ime" name="ime" required>
+                </span>
+                <span class=prezime>
+                    <label for="prezime">Prezime: </label>
+                    <input type="text" id="prezime" name="prezime" required>
+                </span>
+                <span class=naslov_poruke>
+                    <label for="naslov_poruke">Naslov poruke: </label>
+                    <input type="text" id="naslov_poruke" name="naslov_poruke">
+                </span><br>
+                <p>Poruka: </p>
+                <textarea class=forma_text placeholder="Unesite poruku"></textarea>
+                <input type="submit" name="submit" value="Pošalji">
+            </form>
+        </div>
+    </div>
